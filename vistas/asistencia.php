@@ -1,3 +1,4 @@
+
 <?php
   //Activacion de almacenamiento en buffer
   ob_start();
@@ -16,7 +17,24 @@
     if($_SESSION['asistencia'] == 1)
     {
 ?>
-<h2>holaa</h2>
+  <div class="content-wrapper">        
+        <!-- Main content -->
+        <section class="content">
+            <div class="row">
+              <div class="col-md-12">
+                  <div class="box">
+                    <div class="box-header with-border">
+                          <h1 class="box-title">Asistencia  <button class="btn btn-success" id="btnagregar" onclick="mostrarform(true)"><i class="fa fa-plus-circle"></i> Agregar</button></h1>
+                        <div class="box-tools pull-right">
+                        </div>
+                    </div>
+
+                  </div>
+              </div>
+            </div>
+        </section>
+  </div>
+  
 <?php
   
 } //Llave de la condicion if de la variable de session
