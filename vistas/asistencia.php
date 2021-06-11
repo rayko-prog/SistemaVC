@@ -16,6 +16,7 @@
     if($_SESSION['asistencia'] == 1)
     {
 ?>
+<h2>holaa</h2>
 <?php
   
 } //Llave de la condicion if de la variable de session
