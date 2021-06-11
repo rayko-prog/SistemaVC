@@ -21,8 +21,8 @@
         require 'inFactura.php';
 
         //Datos
-        $logo = "logo.jpg";
-        $ext_logo = "jpg";
+        $logo = "logo.png";
+        $ext_logo = "png";
         $empresa = "SOLUCIONES TECNOLOGICAS";
         $documento = "09912002345";
         $direccion = "Changolandia, Conocido 1279";
